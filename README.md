@@ -21,7 +21,7 @@ Run your program multiple times in the terminal
 * Run the "setup.sh" script
   
   ```
-  ./multi-runner/setup.sh
+  cd ./multi-runner/ && ./setup.sh
   ```
   
   The "setup.sh" script is documented, so you can take a look at what exactly it does
