@@ -2,6 +2,8 @@
 
 Run your program multiple times in the terminal
 
+![demo.gif](./docs/demo.gif)
+
 ## How to set up
 
 * Clone the repo
