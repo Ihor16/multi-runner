@@ -9,16 +9,33 @@ Run your command multiple times right from the shell
   ```
   mkdir ~/bin
   ```
+
 - Clone the repo there
   
   ```
-  git clone https://github.com/Ihor16/multi-runner.git .
+  git clone https://github.com/Ihor16/multi-runner.git ~/bin
   ```
+
+- Make "rn" file executable
+  
+  ```
+  chmod +x ~/bin/rn
+  ```
+
+- Update PATH variable in your ".bashrc" file
+  
+  ```
+  echo "PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
+  ```
+
+You can open this file using whatever editor you like
+
 - Refresh your ".bashrc" file
   
   ```
   . ~/.bashrc
   ```
+
 - Now you can use `rn` command to run your command from anywhere in the shell
 
 ## How to use
@@ -36,7 +53,7 @@ Run your command multiple times right from the shell
 ##### Rename the command
 
 * Rename the "rn" file in your "~/bin" directory
-
-```
-mv ~/bin/rn ~/bin/<...your name...>
-```
+  
+  ```
+  mv ~/bin/rn ~/bin/<...your name...>
+  ```
