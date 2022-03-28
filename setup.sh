@@ -3,9 +3,6 @@
 # Creates ~/bin directory if you don't have it yet
 mkdir -p ~/bin
 
-# Clones this repo
-git clone https://github.com/Ihor16/multi-runner.git
-
 # Makes rn script executable
 chmod +x ~/multi-runner/rn
 
