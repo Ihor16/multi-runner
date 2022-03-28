@@ -1,54 +1,40 @@
 # multi-runner
 
-Run your command multiple times right from the shell
+Run your program multiple times in the terminal
 
 ## How to set up
 
-- Create a "bin" directory in your "home" directory if you don't have it yet
+* Clone the repo
   
   ```
-  mkdir -p ~/bin
+  git clone https://github.com/Ihor16/multi-runner.git
   ```
 
-- Clone the repo there
+* Make "setup.sh" file executable
   
   ```
-  git clone https://github.com/Ihor16/multi-runner.git ~/bin/multi-runner && cp ~/bin/multi-runner/rn ~/bin/multi-runner
+  chmod +x ./multi-runner/setup.sh
   ```
 
-- Make "rn" file executable
+* Run the "setup.sh" script
   
   ```
-  chmod +x ~/bin/rn
+  ./multi-runner/setup.sh
   ```
-
-- Update PATH variable in your ".bashrc" file
   
-  ```
-  echo "PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
-  ```
-
-You can open this file using whatever editor you like
-
-- Refresh your ".bashrc" file
-  
-  ```
-  . ~/.bashrc
-  ```
-
-- Now you can use `rn` command to run your command from anywhere in the shell
+  The "setup.sh" script is documented, so you can take a look at what exactly it does
 
 ## How to use
 
-- Go to your directory with a program you want to run
-- Use `rn`. It takes one argument which is your program you want to repetitively execute. For example `rn counting`
-- It will pipe the output to the `less` command, and you can exit it by pressing `q`
+* Go to a directory with a program you want to run
+* Use `rn` command. It takes one argument which is the compiled program you want to repetitively execute. For example `rn counting`
+* The `rn` pipes the output to the `less` command, so your terminal is not flooded with the output. You can exit it by pressing `q`
 
 ## How to modify
 
 ##### Change how many times a program is repeated
 
-- Edit the `rn` file. The default value is 100, but you can change it to whatever you want
+* Edit the `rn` file in your "~/bin" directory. The default value is 100, but you can change it to whatever you want
 
 ##### Rename the command
 

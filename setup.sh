@@ -15,7 +15,3 @@ echo "PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
 # Refreshes your .bashrc to make the rn command available
 . ~/.bashrc
 
-
-
-
-
