@@ -13,7 +13,7 @@ Run your command multiple times right from the shell
 - Clone the repo there
   
   ```
-  git clone https://github.com/Ihor16/multi-runner.git ~/bin/multi-runner
+  git clone https://github.com/Ihor16/multi-runner.git ~/bin/multi-runner && cp ~/bin/multi-runner/rn ~/bin/multi-runner
   ```
 
 - Make "rn" file executable
