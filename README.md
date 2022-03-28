@@ -29,7 +29,17 @@ Run your program multiple times in the terminal
 ## How to use
 
 * Go to a directory with a program you want to run
-* Use `rn` command. It takes n arguments which contain your compiled program and arguments it needs to run. So, whatever program you specify in `rn` will execute repetitively many times. For example `rn counting`
+* Use `rn` command. It has this format: 
+  
+  ```
+  rn YOUR_PROGRAM [PROGRAMS_ARG]...
+  ```
+  
+  For example, do this to repetitively run a program called `read` that takes 2 arguments
+  
+  ```
+  rn read 10 15
+  ```
 * The `rn` pipes the output to the `less` command, so your terminal is not flooded with the output. You can exit it by pressing `q`
 
 ## How to modify
@@ -46,7 +56,7 @@ Run your program multiple times in the terminal
   mv ~/bin/rn ~/bin/<...your name...>
   ```
 
-* Now, for example, to repetitively run "counting" program, you can use 
+* Now, for example, to repetitively run `counting` program, you can use 
   
   ```
   <...your name...> counting
