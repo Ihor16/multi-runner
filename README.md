@@ -43,3 +43,9 @@ Run your program multiple times in the terminal
   ```
   mv ~/bin/rn ~/bin/<...your name...>
   ```
+
+* Now, for example, to repetitively run "counting" program, you can use 
+  
+  ```
+  <...your name...> counting
+  ```
