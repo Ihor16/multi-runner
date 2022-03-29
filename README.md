@@ -12,12 +12,6 @@ Run your program multiple times in the terminal
   git clone https://github.com/Ihor16/multi-runner.git
   ```
 
-* Make "setup.sh" file executable
-  
-  ```
-  chmod +x ./multi-runner/setup.sh
-  ```
-
 * Run the "setup.sh" script
   
   ```
@@ -29,18 +23,22 @@ Run your program multiple times in the terminal
 ## How to use
 
 * Go to a directory with a program you want to run
+
 * Use `rn` command. It has this format: 
   
   ```
   rn YOUR_PROGRAM [PROGRAMS_ARG]...
   ```
   
-  For example, do this to repetitively run a program called `read` that takes 2 arguments
+  For example, to repetitively run a program called `read` that takes 2 arguments, run
   
   ```
   rn read 10 15
   ```
+
 * The `rn` pipes the output to the `less` command, so your terminal is not flooded with the output. You can exit it by pressing `q`
+
+* Since the "setup.sh" creates a symbolic link in your "~/bin" directory, when you pull a newer version of this repo with `git pull`, the updated "rn" script will be automatically picked up in the "~/bin" directory without any configuration required. This works even if you renamed the "rn" file in your "~/bin"
 
 ## How to modify
 
