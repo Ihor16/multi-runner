@@ -38,13 +38,13 @@ Run your program multiple times in the terminal
 
 * The `rn` pipes the output to the `less` command, so your terminal is not flooded with the output. You can exit it by pressing `q`
 
-* Since the "setup.sh" creates a symbolic link in your "~/bin" directory, when you pull a newer version of this repo with `git pull`, the updated "rn" script will be automatically picked up there without any configuration required. This works even if you renamed the "rn" file in that directory
+* Since the "setup.sh" creates a symbolic link in your "~/bin" directory, when you pull a newer version of this repo, the updated "rn.sh" script will be automatically picked up there without any configuration required. This works even if you renamed the "rn" file in that directory
 
 ## How to modify
 
 #### Change how many times a program is repeated
 
-* Edit the "rn" file in the repo or "~/bin" directory. The default value is 100, but you can change it to whatever you want
+* Edit the "rn.sh" file in the repo or the corresponding one in "~/bin" directory. The default value is 100, but you can change it to whatever you want
 
 #### Rename the command
 

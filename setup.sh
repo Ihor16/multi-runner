@@ -9,7 +9,7 @@ mkdir -p ~/bin
 # Creates a symbolic link to rn script in the ~/bin directory
 # Now any newer version of the rn will be automatically picked up in the ~/bin even if the script is renamed in the ~/bin
 cd ~/bin
-ln -s $DIR/rn .
+ln -s $DIR/rn.sh ./rn
 
 # Goes back to the repo's directory
 cd $DIR
