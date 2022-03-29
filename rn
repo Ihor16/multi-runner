@@ -3,5 +3,5 @@
 for i in {1..100}
 do
     ./${@}
-    echo "-----"
+    echo "0-0-0"
 done | less
