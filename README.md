@@ -38,7 +38,7 @@ Run your program multiple times in the terminal
 
 * The `rn` pipes the output to the `less` command, so your terminal is not flooded with the output. You can exit it by pressing `q`
 
-* Since the "setup.sh" creates a symbolic link in your "~/bin" directory, when you pull a newer version of this repo with `git pull`, the updated "rn" script will be automatically picked up in the "~/bin" directory without any configuration required. This works even if you renamed the "rn" file in your "~/bin"
+* Since the "setup.sh" creates a symbolic link in your "~/bin" directory, when you pull a newer version of this repo with `git pull`, the updated "rn" script will be automatically picked up there without any configuration required. This works even if you renamed the "rn" file in that directory
 
 ## How to modify
 
