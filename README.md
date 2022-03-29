@@ -46,7 +46,7 @@ Run your program multiple times in the terminal
 
 #### Change how many times a program is repeated
 
-* Edit the `rn` file in your "~/bin" directory. The default value is 100, but you can change it to whatever you want
+* Edit the "rn" file in the repo or "~/bin" directory. The default value is 100, but you can change it to whatever you want
 
 #### Rename the command
 
