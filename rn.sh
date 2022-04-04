@@ -4,4 +4,4 @@ for i in {1..100}
 do
     ./${@}
     echo "-----"
-done | less
+done | less -NJ
